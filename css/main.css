@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/img/backgroundweb.png);
+    background-image: url('/img/pink-texture-watercolor.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -106,7 +106,7 @@ a:hover {
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-image: url(/img/footerimg.png);
+    background-image: url('/img/footerimg.png');
     background-size: cover;
     background-position: center center;
 }
