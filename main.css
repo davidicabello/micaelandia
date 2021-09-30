@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url('/img/newbackheader.png');
+    background: url("img/newbackheader.png");
     background-size: cover;
     background-position: center center;
 }
@@ -50,11 +51,12 @@ h1, h2 {
 }
 
 .quiensoy .container {
+    display: block;
     padding: 1rem;
     margin: 75px auto;
     max-width: 100%;
     width: 1300px;
-    background-image: url('/img/pink-texture-watercolor.jpg');
+    background: url("img/pink-texture-watercolor.jpg");
     background-size: cover;
     text-align: center;
     border-radius: 1rem;
@@ -106,7 +108,7 @@ a:hover {
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-image: url("/img/footerblue.png");
+    background-image: url("img/footerblue.png");
     background-size: cover;
     background-position: center center;
 }
