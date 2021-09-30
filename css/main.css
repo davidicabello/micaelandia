@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('/img/pink-texture-watercolor.jpg');
+    background-image: url('/img/newbackheader.png');
     background-size: cover;
     background-position: center center;
 }
@@ -49,13 +49,12 @@ h1, h2 {
     justify-content: center;
 }
 
-
 .quiensoy .container {
     padding: 1rem;
     margin: 75px auto;
     max-width: 100%;
     width: 1300px;
-    background-image: url('/img/newbackheader.png');
+    background-image: url('/img/pink-texture-watercolor.jpg');
     background-size: cover;
     text-align: center;
     border-radius: 1rem;
@@ -70,7 +69,6 @@ h1, h2 {
     width: 150px;
     border: none;
     align-self: center;
-    
 }
 
 .card {
@@ -92,10 +90,12 @@ h1, h2 {
     height: 30px;
     justify-content: center;
 }
-.card a:hover{
-    background-color: #aed581;
+
+.card a:hover {
+    background-color: #69f0ae;
 }
-.card h1{
+
+.card h1 {
     font-weight: bold;
 }
 
@@ -106,14 +106,12 @@ a:hover {
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-image: url('/img/footerimg.png');
+    background-image: url("/img/footerblue.png");
     background-size: cover;
     background-position: center center;
 }
 
 .footer-dark h3 {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
     margin-top: 0;
     margin-bottom: 12px;
     font-weight: bold;
@@ -121,7 +119,6 @@ a:hover {
 }
 
 .footer-dark ul {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     padding: 0;
     list-style: none;
     line-height: 1.6;
@@ -180,9 +177,9 @@ a:hover {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 0 0 0 1px rgb(22, 20, 20);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
     margin: 0 8px;
-    color: #232323;
+    color: #fff;
     opacity: 0.75
 }
 
