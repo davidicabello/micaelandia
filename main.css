@@ -50,7 +50,7 @@
 }
 
 body {
-    background: url("img/backgroundweb.png");
+    background: url("img/thumb-1920-943754.png");
     background-size: cover;
     background-position: center center;
 }
@@ -101,7 +101,7 @@ h1, h2 {
     margin: 75px auto;
     max-width: 100%;
     width: 1300px;
-    background: url("img/newbackheader.png");
+    background: url("img/backgroundweb.png");
     background-size: cover;
     text-align: center;
     border-radius: 1rem;
