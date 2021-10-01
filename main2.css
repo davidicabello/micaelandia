@@ -74,6 +74,11 @@ header {
     width: 275px;
 }
 
+a .imagenws{
+  height: 150px;
+  width: 150px;
+}
+
 .document-align-center {
     max-width: 800px;
     margin: auto;
@@ -128,11 +133,12 @@ h1, h2 {
 }
 
 .card2 {
-    background: none;
+    background: url(img/pink-texture-watercolor.jpg);
+    background-position: center;
+    background-size: cover cover;
     border: solid 2px #232323;
     width: 400px;
     height: 300px;
-    float: left;
     margin: 1px;
     justify-content: center;
 }
