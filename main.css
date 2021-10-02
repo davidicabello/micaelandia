@@ -12,7 +12,7 @@
 }
 
 #contenedor_carga {
-    background-color: #f0f9ff;
+    background-color: #f8bbd0;
     position: fixed;
     height: 100%;
     width: 100%;
@@ -50,7 +50,8 @@
 }
 
 body {
-    background: url("img/thumb-1920-943754.png");
+    background: url("img/thumb-1920-943754.png")no-repeat center center fixed;
+    ;
     background-size: cover;
     background-position: center center;
 }
@@ -81,6 +82,8 @@ header {
 
 h1, h2 {
     font-family: 'Ephesis', cursive;
+    color: #f0f9ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .pes {
@@ -101,8 +104,9 @@ h1, h2 {
     margin: 75px auto;
     max-width: 100%;
     width: 1300px;
-    background: url("img/backgroundweb.png");
+    background: url("img/ws_Android_3.0_pink_wallpaper_1920x1080.jpg");
     background-size: cover;
+    background-position: center center;
     text-align: center;
     border-radius: 1rem;
     font-weight: bold;
@@ -116,6 +120,14 @@ h1, h2 {
     width: 150px;
     border: none;
     align-self: center;
+}
+
+#percho {
+    height: 500px;
+    width: 400px;
+    border-radius: 10%;
+    border: none;
+    margin: 30px;
 }
 
 .card {
@@ -150,10 +162,15 @@ a:hover {
     color: white;
 }
 
-a .imagenws{
-    height: 150px;
+a .imagenws {
+    height: 120px;
     width: 150px;
-  }
+    margin: 10px;
+}
+
+#footercontainer {
+    background: none;
+}
 
 .footer-dark {
     padding: 50px 0;
